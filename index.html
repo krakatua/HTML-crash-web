@@ -1,126 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Testing Page</title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <section class="">
-      <nav class="nav">
-        <img src="./assests/FES.svg" alt="" class="fes" />
 
-        <div class="navbar">
-          <a href="#about"> About </a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
-          <a href="#dc"> Projects </a>
-
-          <a href="#contact"> Contactame </a>
+<body>
+  <section>
+    <nav>
+      <img class="logo" src="./assests/FES.svg" alt="" />
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#discord">Discord</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+      <div class="row">
+        <div class="home__description">
+          <h1>Best place to learn Frontend</h1>
+          <p class="subheader">Go from absolute beginner to pro with a simplified process</p>
+          <button>Start now</button>
         </div>
-      </nav>
+        <figure class="home__img--wrapper">
+          <img class="home__img" src="./assests/laptop.png" alt="" />
+        </figure>
+      </div>
+    </header>
+  </section>
 
-      <header class="header">
-        <div class="row">
-          <div class="header-wrapper">
-            <div>
-              <h1>Bembom Programming Style</h1>
-            </div>
-            <div class="subheader">
-              <p>
-                Bembom estamos aqui aprendiendo React y todo lo que conlleva
-              </p>
-            </div>
-            <div>
-              <button>Comienza Ahora</button>
-            </div>
-          </div>
-
-          <figure>
-            <img
-              src="./assests/laptop.png"
-              alt="Home Page image"
-              class="img1"
-            />
-          </figure>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <div class="section__description">
+        <div class="section__description--wrapper">
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
+          <p class="section__description--para">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus saepe quis adipisci cumque nisi! Eum
+            aspernatur officia aut voluptates ipsum, deserunt debitis numquam iusto accusamus. Incidunt repellat nulla
+            quam numquam?
+          </p>
         </div>
-      </header>
+        <figure class="about__img--wrapper">
+          <img src="./assests/about.jpg" alt="" />
+        </figure>
+      </div>
     </section>
 
-    <main>
-      <section id="about">
-        <h2>About</h2>
-        <div class="aboutwrapper">
-          <div class="ps">
-            <p class="sectionpara">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
-            dolore omnis, repudiandae iste cumque, reiciendis ratione soluta,
-            veritatis vero distinctio dolores dolorem atque. Natus, at fugiat?
-            Autem ipsum provident totam.
-            </p>
-            <p class="sectionpara">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure atque
-            corporis eos. Assumenda quam ducimus dicta blanditiis ipsum nihil
-            sequi repellat tenetur ipsam enim earum vero, fugit, est, atque
-            molestiae.
-            </p>
-          </div>
-          <figure class="aboutimg">
-            <img src="./assests/about.jpg" alt="" class="aboutjpg" />
-          </figure>
-        </div>
-      </section>
-      <section id="dc">
-        <div>
-          <h2>discord</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe
-            cumque laboriosam, et, officia in deleniti mollitia sed praesentium
-            harum repellat odit magnam ut similique sit sequi voluptate. Quo,
-            nihil.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eius
-            ea, ducimus ipsam consequuntur amet ipsum in libero odit voluptates
-            praesentium dolore mollitia iusto illo eaque totam nisi corrupti
-            quas.
-          </p>
-        </div>
-        <figure>
-          <img src="./assests/discord.png" alt="" class="discordjpg" />
+    <section id="discord">
+      <h2>Discord</h2>
+      <div class="section__description">
+        <figure class="about__img--wrapper">
+          <img src="./assests/discord.png" alt="" />
         </figure>
-      </section>
-      <section id="contact">
-        <h2>contact</h2>
-        <form action="">
-          <span>Email</span>
-          <input type="text" placeholder="Jane@example.com" class="input1" />
-          <span>Message</span>
-          <textarea
-            type="text"
-            placeholder="Nice website Testing"
-            class="input2"
-          ></textarea>
-        </form>
-      </section>
-    </main>
+        <div class="section__description--wrapper">
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+          <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            tempore veniam nostrum temporibus
+            doloribus, dolores inventore. Eveniet laboriosam magni blanditiis explicabo. Quidem ipsum nostrum sed iste,
+            saepe fugiat natus hic.</p>
+        </div>
 
-    <footer class="footer">
-      <img src="" alt="" />
-      <div>
-        <a href="#about">about</a>
-        <a href="#discord">discord</a>
-        <a href="#contact">contact</a>
-        <a href="#courses">Courses</a>
       </div>
-      <p class="pfo">Copyright Bembom Music</p>
-    </footer>
-  </body>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="">
+        <span>Email</span>
+        <input type="email" placeholder="jane@example.com" />
+        <span>Message</span>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Nice website, lets connect!"></textarea>
+        <button>Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <img class="footer__logo" src="./assests/FES.svg" alt="" />
+    <div class="footer__links">
+      <a class="footer__link" href="#about">About</a>
+      <a class="footer__link" href="#discord">Discord</a>
+      <a class="footer__link" href="#contact">Contact</a>
+      <a class="footer__link" href="">Courses</a>
+    </div>
+    <p>Copyright Frontend Simplified</p>
+  </footer>
+</body>
+
 </html>
