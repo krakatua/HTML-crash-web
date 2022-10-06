@@ -18,46 +18,64 @@
       <nav class="nav">
         <img src="./assests/FES.svg" alt="" class="fes" />
 
-        <a href="#about" class="nav1"> Sobre Mi </a>
+        <div class="navbar">
+          <a href="#about"> About </a>
 
-        <a href="#dc" class="nav2"> Projects </a>
+          <a href="#dc"> Projects </a>
 
-        <a href="#contact" class="nav3"> Contactame </a>
+          <a href="#contact"> Contactame </a>
+        </div>
       </nav>
 
       <header class="header">
-        <div>
-          <h1>Bembom Programming Style</h1>
-          <p>Bembom estamos aqui aprendiendo React y todo lo que conlleva</p>
-          <button>Comienza Ahora</button>
-        </div>
+        <div class="row">
+          <div class="header-wrapper">
+            <div>
+              <h1>Bembom Programming Style</h1>
+            </div>
+            <div class="subheader">
+              <p>
+                Bembom estamos aqui aprendiendo React y todo lo que conlleva
+              </p>
+            </div>
+            <div>
+              <button>Comienza Ahora</button>
+            </div>
+          </div>
 
-        <figure>
-          <img src="./assests/laptop.png" alt="Home Page image" class="img1" />
-        </figure>
+          <figure>
+            <img
+              src="./assests/laptop.png"
+              alt="Home Page image"
+              class="img1"
+            />
+          </figure>
+        </div>
       </header>
     </section>
 
     <main>
       <section id="about">
-        <div>
-          <h2>about</h2>
-          <p>
+        <h2>About</h2>
+        <div class="aboutwrapper">
+          <div class="ps">
+            <p class="sectionpara">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
             dolore omnis, repudiandae iste cumque, reiciendis ratione soluta,
             veritatis vero distinctio dolores dolorem atque. Natus, at fugiat?
             Autem ipsum provident totam.
-          </p>
-          <p>
+            </p>
+            <p class="sectionpara">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure atque
             corporis eos. Assumenda quam ducimus dicta blanditiis ipsum nihil
             sequi repellat tenetur ipsam enim earum vero, fugit, est, atque
             molestiae.
-          </p>
+            </p>
+          </div>
+          <figure class="aboutimg">
+            <img src="./assests/about.jpg" alt="" class="aboutjpg" />
+          </figure>
         </div>
-        <figure>
-          <img src="./assests/about.jpg" alt="" class="aboutjpg" />
-        </figure>
       </section>
       <section id="dc">
         <div>
@@ -74,7 +92,6 @@
             praesentium dolore mollitia iusto illo eaque totam nisi corrupti
             quas.
           </p>
-        
         </div>
         <figure>
           <img src="./assests/discord.png" alt="" class="discordjpg" />
@@ -86,7 +103,11 @@
           <span>Email</span>
           <input type="text" placeholder="Jane@example.com" class="input1" />
           <span>Message</span>
-          <textarea type="text" placeholder="Nice website Testing" class="input2"></textarea>
+          <textarea
+            type="text"
+            placeholder="Nice website Testing"
+            class="input2"
+          ></textarea>
         </form>
       </section>
     </main>

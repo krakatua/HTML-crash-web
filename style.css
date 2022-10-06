@@ -1,48 +1,70 @@
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     
 }
 
-.body {
-    border: 2px solid black;     
-}
 
-.nav {
-    width: 100%;
-    background-color: aliceblue;
+nav {
+    height: 70px;
+    background-color: #cafdff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 16px;
 }
 
-.nav1 {
-    width: 100px;
+a {
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 16px;
+}
+
+.navbar {
+    width: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav2 {
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav3 {
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.header {
-    background-color: lightslategray;
+header {
+    height: calc(100vh - 70px);
+    background-color: plum;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px
+    padding: 24px 24px 0 24px;
 }
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: #05c7cf;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .img1 {
     animation: float 2000ms infinite alternate-reverse;
@@ -68,6 +90,7 @@
 
 
 .fes {
+    width: 30%;
     animation: floatv 2000ms infinite alternate-reverse;
 }
 
@@ -81,13 +104,28 @@
     }
 }
 
+
+/*
+
+ABOUT
+
+*/
+
 #about {
     width: 100%;
-    background-color: lightblue;
+    background-color: #f8ffdc;
+    padding: 48px 0   
+}
+
+.aboutwrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 20px   
+}
+
+.ps {
+    flex-direction: column;
+    width: 60%;
 }
 
 .aboutc {
@@ -99,10 +137,34 @@
     animation: float 2000ms infinite alternate-reverse;
 }
 
+.aboutimg {
+    padding: 0 24px;
+    width: 40%;
+}
+
+img {
+    width: 100%;
+}
+
+
+.sectionpara {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+
+/*
+
+DISCORD
+
+*/
+
 
 #dc {
     
-    background-color: lightblue;
+    background-color: #cefeff;
     display: flex;
     padding: 20px;
     justify-content: center;
@@ -138,3 +200,14 @@
     align-items: center;
 }
 
+@media (max-width: 576px) {
+    * {
+        font-size: 16px;
+    }
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+}
